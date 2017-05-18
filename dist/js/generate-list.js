@@ -2,7 +2,7 @@ var numbers = [] // our array
 
 
 //Function to generate a list of 1 to 10000 in random order
-genList = () => {
+function genList() {
     if (document.getElementById('thelist') == null)
         return
     var t0 = performance.now()
@@ -32,7 +32,7 @@ genList = () => {
 }
 
 //Function to generate 1 to 10000 in random order and format into a table
-generateTable = () => {
+function generateTable() {
     if (document.getElementById('tablelist') == null)
         return
     var t0 = performance.now()
@@ -69,7 +69,7 @@ generateTable = () => {
 }
 
 
-drawOnCanvas = () => {
+function drawOnCanvas() {
     var canvas = document.getElementById("canvas"),
         ctx = canvas.getContext('2d')
     var t0 = performance.now()
