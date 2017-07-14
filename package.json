@@ -1,6 +1,9 @@
 {
   "name": "job-test",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.11.1"
+  },
   "description": "App that generates a list of 1 to 10000 in random order",
   "main": "server.js",
   "scripts": {
